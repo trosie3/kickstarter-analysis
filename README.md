@@ -9,10 +9,10 @@ The purpose to gage which is the best month to launch, and best monetary goal to
 ## Analysis and Challenges
  
 ### Analysis of Outcomes Based on Launch Date
-To perform this analysis, I first had to break launch date into years so you can compare year to year data within the theater category. I then created a pivot table to analyze outcomes of successful, failed or canceled kickerstarter campaigns based on their launch date and to show the outcomes visually created a line chart.
+To perform this analysis, I first had to break launch date into years so you can compare year to year data within the theater category. I then created a pivot table to analyze outcomes of successful, failed or canceled kickerstarter campaigns based on their launch date and to show the outcomes visually created a line chart.  ![alt text](https://github.com/trosie3/kickstarter-analysis/blob/5be6a9674851cdace036cf571c98945f5119947c/resources/Theater_Outcomes_vs_Launch.png)
 
 ### Analysis of Outcomes Based on Goals
-Still within the theater category I dug into the plays subcategory to see based on amount of goal how many plays were successful, failed or canceled as the client is looking to launch a play. Then using that data, I then determined the percentage of successful, failed and canceled and to show the analysis visually created another line chart.
+Still within the theater category I dug into the plays subcategory to see based on amount of goal how many plays were successful, failed or canceled as the client is looking to launch a play. Then using that data, I then determined the percentage of successful, failed and canceled and to show the analysis visually created another line chart. ![alt text](https://github.com/trosie3/kickstarter-analysis/blob/5be6a9674851cdace036cf571c98945f5119947c/resources/Outcomes_vs_Goals.png)
 
 ### Challenges and Difficulties Encountered
 Challenges with the data to show accurate successful, failed or canceled in each month for the launch date plot is that there were not an equal number of launches in each month so the data could be skewed by volume. Challenges withing accessing data based on the goal is the coding within the COUNTIFS was cumbersome and easy to create an error by missing a zero or comma, or data point to draw from creating a data set more prone to human error.
